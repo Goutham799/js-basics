@@ -1,0 +1,16 @@
+</head>
+<body>
+    <h1 id="myHeading">Hello, World!</h1>
+    <p class="intro">This is a paragraph.</p>
+
+    <script>
+        // Using document.querySelector to select elements
+        const headingElement = document.querySelector("#myHeading"); // Selects element with id "myHeading"
+        headingElement.textContent = "hey";        
+        const paragraphElement = document.querySelector(".intro");   // Selects the first element with class "intro"
+
+        console.log(headingElement.textContent);  // Outputs the text content of the heading element
+        console.log(paragraphElement.textContent);  // Outputs the text content of the paragraph element
+    </script>
+</body>
+</html>
