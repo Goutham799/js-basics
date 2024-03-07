@@ -17,7 +17,7 @@ export default class Person{
 }
 
 
-const p = new Person('John', 'Wick')
+const p = new Person('Sai', 'Pujari')
 console.log(p.age)
 console.log(p.fullName())
 console.log(p)
